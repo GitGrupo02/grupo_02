@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/elementos.css">
+    <title>Elementos</title>
+</head>
+<body>
+    <div> <!--contenedor padre -->
+        <fieldset> <!--contenedor que marca un borde-->
+            <legend>elementos</legend> <!--escribo en el borde-->
+
+                <!-- input texto -->
+                <label for="nombre">
+                    Nombre: <input type="text" id="nombre" value="Carlos" placeholder="escribe tu nombre"
+                             maxlength="5">
+                </label>    
+                <hr>
+                <!-- input number -->
+                <label for="numero"> edad:
+                    <input type="number" id="numero" min="18" max="25">
+                </label>
+
+                <hr>
+                <!-- input contraseñas  -->
+                <label for="pass">Contraseña:
+                    <input type="password" id="pass">
+                </label>
+
+        </fieldset>
+    </div>
+</body>
+</html>

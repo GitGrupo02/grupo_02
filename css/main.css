@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(190, 211, 74);
+}
+
+
+#contenedor{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: yellow;
+    border: 1px solid black;
+}
+
+.circulo{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.azul{
+    background-color: blue;
+    top: 80px;
+    left: 150px;
+    z-index: 3;
+}
+
+.rojo{
+    background-color: red;
+    top: 80px;
+    left: 200px;
+    z-index: 2;
+}
+
+.blanco{
+    background-color: white;
+    top: 80px;
+    left: 250px;
+    z-index: 1;
+}
+
+h1{
+    font-family: sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    font-size: 16px;
+    color: tomato;
+}
