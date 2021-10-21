@@ -8,6 +8,23 @@
     <title>Elementos</title>
 </head>
 <body>
+    <!-- inicio navbar -->
+    <div class="menu">
+        <ul>
+            <li id="item"><a href="#">Servicio</a></li>
+            <li id="item"><a href="#">Mision</a></li>
+            <li id="item"><a href="#">Vision</a></li>
+            <li id="item"><a href="#">Historia</a>
+                <ul id="submenu">
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Vision</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- fin navbar  -->
+
+
     <div> <!--contenedor padre -->
         <fieldset> <!--contenedor que marca un borde-->
             <legend>elementos</legend> <!--escribo en el borde-->
@@ -28,6 +45,100 @@
                 <label for="pass">Contraseña:
                     <input type="password" id="pass">
                 </label>
+
+                <hr>
+                <!-- formato de fechas  -->
+                <label for="fecha">Ingrese una fecha:
+                    <input type="date" id="fecha" value="2021-10-21" min="2019-10-01" max="2021-12-31">
+                </label>
+
+                <hr>
+                <!-- paleta de colores -->
+                <label for="">Seleccione un color
+                    <input type="color" id="color" value="#33FFFF">
+                </label>
+
+                <hr>
+                <!-- seleciona archivo -->
+                <label for="">Seleccione un Archivo:
+                    <input type="file" id="archivo" multiple>
+                </label>
+
+                <hr>
+                <!-- select  -->
+                <h1>select</h1>
+                <select >
+                    <option value="1">Medellin</option>
+                    <option value="2">Barranquilla</option>
+                    <option value="3">Cali</option>
+                    <option value="4">Monteria</option>
+                </select>
+
+                <hr>
+                <!-- radios button  -->
+                <h1>Radio Button</h1>
+
+                
+                <label for="">
+                    <input type="radio" name="radio">
+                    Casad@
+                </label>
+                <br>
+
+                
+                <label for="">
+                    <input type="radio" name="radio" >
+                    Solter@
+                </label>
+                <br>
+
+                
+                <label for="">
+                    <input type="radio" name="radio" >
+                    Union Libre
+                </label>
+                <br>
+                 
+                
+                <label for="">
+                    <input type="radio" name="radio" >
+                    Viud@
+                </label>
+
+                <hr>
+                <!-- checkbox -->
+                <h1>Checkbox</h1>
+                <label for="">
+                    <input type="checkbox" >
+                    Dibujar
+                </label>
+                <br>
+
+                <label for="">
+                    <input type="checkbox" >
+                    Cantar
+                </label>
+                <br>
+
+                <label for="">
+                    <input type="checkbox" >
+                    Bailar
+                </label>
+
+                <hr>
+                <h1>LISTA</h1>
+                <label for="">Ciudades
+                    <input type="text" list="lista">
+                    <datalist id="lista">
+                        <option value="Medellin">Medellin</option>
+                        <option value="Monteria">Monteria</option>
+                        <option value="Cali">Cali</option>
+                        <option value="Barranquilla">Barranquilla</option>
+
+                    </datalist>
+                </label>
+
+            
 
         </fieldset>
     </div>

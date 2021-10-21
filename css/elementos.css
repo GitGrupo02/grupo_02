@@ -1,0 +1,33 @@
+.menu ul{
+    list-style: none;
+}
+
+#item{
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.menu #item a{
+    text-decoration: none;
+    background: rgb(6, 6, 83);
+    color: white;
+    padding: 12px 22px;
+    display: block;
+}
+
+.menu #item a:hover{
+    background: salmon;
+}
+
+.menu #submenu{
+    display: none;
+    position: absolute;
+    margin-left: -40px;
+    width: 95px;
+    
+}
+
+.menu #item:hover #submenu{
+    display: block;
+    
+}
